@@ -12,19 +12,22 @@
         <div class="header__nav">
           <nav class="header__menu mobile-menu">
             <ul>
-              <li class="active"><a href="index.php">Homepage</a></li>
-              <li><a href="./categories.html">Categories <span class="arrow_carrot-down"></span></a>
+              <li class="active"><a href="index.php">Inicio</a></li>
+              <li><a href="?page=peliculas">Peliculas <span class="arrow_carrot-down"></span></a>
                 <ul class="dropdown">
-                  <li><a href="./categories.html">Categories</a></li>
-                  <li><a href="./anime-details.html">Anime Details</a></li>
-                  <li><a href="./anime-watching.html">Anime Watching</a></li>
-                  <li><a href="./blog-details.html">Blog Details</a></li>
-                  <li><a href="./signup.html">Sign Up</a></li>
-                  <li><a href="./login.html">Login</a></li>
+                  <li><a href="?page=peliculas&?categoria=accion">Accion</a></li>
+                  <li><a href="?page=peliculas&?categoria=aventuras">Aventuras</a></li>
+                  <li><a href="?page=peliculas&?categoria=ficcion">Ficcion</a></li>
                 </ul>
               </li>
-              <li><a href="./blog.html">Our Blog</a></li>
-              <li><a href="#">Contacts</a></li>
+              <li><a href="?page=juegos">Juegos <span class="arrow_carrot-down"></span></a>
+                <ul class="dropdown">
+                  <li><a href="?page=juegos&?categoria=accion">Accion</a></li>
+                  <li><a href="?page=juegos&?categoria=aventuras">Aventuras</a></li>
+                  <li><a href="?page=juegos&?categoria=ficcion">Ficcion</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Contacto</a></li>
             </ul>
           </nav>
         </div>
