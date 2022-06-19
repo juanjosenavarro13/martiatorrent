@@ -15,10 +15,10 @@
               <li class="active"><a href="index.php">Inicio</a></li>
               <?php
               foreach ($categorias as $categoria => $subcategorias) {
-                echo '<li><a href="index.php?categoria=' . $categoria . '">' . $categoria . '</a>';
+                echo '<li><a href="?page=lista&?categoria=' . $categoria . '">' . $categoria . '</a>';
                 echo '<ul class="dropdown">';
                 foreach ($subcategorias as $subcategoria) {
-                  echo '<li><a href="index.php?categoria=' . $categoria . '&subcategoria=' . $subcategoria . '">' . $subcategoria . '</a></li>';
+                  echo '<li><a href="?page=lista&?categoria=' . $categoria . '&subcategoria=' . $subcategoria . '">' . $subcategoria . '</a></li>';
                 }
                 echo '</ul>';
                 echo '</li>';
