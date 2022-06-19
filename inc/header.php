@@ -24,7 +24,7 @@
                 echo '</li>';
               }
               ?>
-              <li><a href="#">Contacto</a></li>
+              <!-- <li><a href="?page=contacto">Contacto</a></li> -->
             </ul>
           </nav>
         </div>
